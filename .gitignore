@@ -1,0 +1,15 @@
+# Секреты и локальные настройки
+.env
+.env.*
+!.env.example
+
+# Виртуальные окружения и Python-кэш
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Логи и временные файлы
+*.log
+.DS_Store

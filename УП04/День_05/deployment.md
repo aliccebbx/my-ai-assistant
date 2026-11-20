@@ -3,11 +3,11 @@
 - **Название:** ИИ-помощник по уборке и домашним делам.
 - **Репозиторий:** https://github.com/aliccebbx/my-ai-assistant
 - **Ветка:** `main`.
-- **Папка проекта:** `Мой проект`.
+- **Папка проекта:** `УП01/AI-Agent`.
 - **Основной файл:** `main.py`.
 - **Системный промпт:** `prompts.py`.
 - **Способ переноса:** клонирование репозитория через Git в Ubuntu Server.
-- **Планируемый путь:** `~/projects/my-ai-assistant/Мой проект`.
+- **Планируемый путь:** `~/projects/my-ai-assistant/УП01/AI-Agent`.
 
 ## Проверка исходных файлов
 
@@ -28,7 +28,7 @@ mkdir -p ~/projects
 cd ~/projects
 git clone https://github.com/aliccebbx/my-ai-assistant.git
 cd my-ai-assistant
-cd "Мой проект"
+cd УП01/AI-Agent
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install -r requirements.txt
@@ -54,7 +54,7 @@ python main.py
 
 ## Замечания
 
-В README упоминается файл `.env.example`, но в проверенной структуре GitHub он не обнаружен. До развёртывания необходимо уточнить способ настройки переменных окружения.
+Шаблон `.env.example` находится в `УП01/AI-Agent`. Перед запуском скопируйте его в `.env` и локально укажите собственные учётные данные; файл `.env` не публиковать.
 
 ## Вывод
 
